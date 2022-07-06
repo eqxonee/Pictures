@@ -1,4 +1,5 @@
 public class HistroyOne {
+
     Build build = new Build();
 
 
@@ -7,7 +8,7 @@ public class HistroyOne {
 
     static int strengthOfGeralth = 100;
 
-    public void playGame() {
+    public static void playGame() {
 
         System.out.println("Приветствуем вас в истории одного человека по имени Геральт! Ваш главный герой очень силен, обладает нечеловеческими способностями , которые помогают ему в повседневной охоте на монстров и помощи мирным жителям. Желаем вам удачи и хорошего времяпровождения!\n");
 

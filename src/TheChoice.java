@@ -2,12 +2,11 @@ import java.util.Scanner;
 
 public class TheChoice {
 
+    private static boolean PlayTheGameOne = true;
 
-    public TheChoice(boolean playTheGameOne) {
-        this.playTheGameOne = playTheGameOne;
-    }
+    public static boolean isPlayTheGameOne(){return PlayTheGameOne;}
 
-    private boolean playTheGameOne = true;
+
 
 
 

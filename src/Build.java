@@ -70,13 +70,13 @@ public class Build {
         int choice = inputInt("Выберите историю - ",1, 2 );
 
         if (choice == 1){
-            while (TheChoice){
+            while (TheChoice.isPlayTheGameOne()) {
+                HistroyOne.playGame();
             }
         }
 
 
     }
-
 
     public static void moneyFirstHistory(){
         System.out.println("Монеты Геральта:" +HistroyOne.moneyOfGeralth);
