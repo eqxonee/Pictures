@@ -3,6 +3,10 @@ import java.util.Scanner;
 
 public class Build {
 
+    public Build() {
+
+    }
+
     static int inputInt(String message, int min, int max) {
 
         boolean isValidInput;
@@ -59,19 +63,24 @@ public class Build {
     }
 
     public void PrintMenu(){
-        Scanner scanner = new Scanner(System.in);
 
-        System.out.println("Выберите вашу историю: ");
+        System.out.println("История №1 - Геральт в Ривии ");
+        System.out.println("История №2 - История Джо и Вито ");
 
-        System.out.println("История №1 ");
-        System.out.println("История №2 ");
+        int choice = inputInt("Выберите историю - ",1, 2 );
 
-        int Choice = scanner.nextInt();
+        if (choice == 1){
+            while (TheChoice){
+            }
+        }
+
 
     }
 
-    public void money(){
-        HistroyOne.setMoneyOfGeralth(300);
+
+    public static void moneyFirstHistory(){
+        System.out.println("Монеты Геральта:" +HistroyOne.moneyOfGeralth);
+
     }
 
 

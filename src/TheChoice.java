@@ -7,7 +7,7 @@ public class TheChoice {
         this.playTheGameOne = playTheGameOne;
     }
 
-    private boolean playTheGameOne;
+    private boolean playTheGameOne = true;
 
 
 
@@ -16,3 +16,4 @@ public class TheChoice {
 
 
 }
+
