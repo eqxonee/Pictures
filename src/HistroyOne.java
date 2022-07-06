@@ -67,6 +67,9 @@ public class HistroyOne {
                 System.out.println("Геральт выбрал верный знак, он поджигал чудовище, тем самым делая его видимым и быстро с ним разобрался");
             } else {
                 System.out.println("Геральту очень тяжело дался этот бой, он дрался с ним часами и все же , потратив все свои силы, он спарвился с чудовищем");
+                int strengthAfterTummanio = 80;
+                strengthOfGeralth  -= strengthAfterTummanio;
+                System.out.println("Геральт очень устал после боя с туманником, силы ведьмака заканчиваются. На данный момент у Геральта: " + strengthOfGeralth + "силы");
             }
 
             System.out.println("Глава 4:\n" +
