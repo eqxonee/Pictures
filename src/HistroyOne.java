@@ -1,9 +1,6 @@
 public class HistroyOne {
 
-    Build build = new Build();
-
-
-    public static int moneyOfGeralth = 300;
+    public static int moneyOfGeralth = 1000;
 
 
     static int strengthOfGeralth = 100;
@@ -45,9 +42,10 @@ public class HistroyOne {
         }
         int moneyFromBeast = 500;
         moneyOfGeralth += moneyFromBeast;
-        System.out.println("Колличество крон на данный момент: " + moneyOfGeralth);
 
-        System.out.println("Староста сказал Геральту, что выплатить всей деревней они смогут не более 500 новиградских крон(");
+        System.out.println("Староста сказал Геральту, что выплатить всей деревней они смогут не более 500 новиградских крон и выплатил их авансом");
+
+        System.out.println("Колличество крон на данный момент: " + moneyOfGeralth);
 
         System.out.println("Глава 3:\n" +
                 "\n" +
@@ -145,7 +143,21 @@ public class HistroyOne {
 
         System.out.println("Поздравляем! Теперь вы узнали о таком персонаже, как Геральт - ведьмак из Ривии и лишь малую часть его большой истории!");
 
+        int choice = Build.inputInt("Желаете начать следующую историю? 1 - Да, 2 - Нет",1,2);
+
+        if (choice == 1){
+            HistoryTwo.PlayGame2();
+        }else{
+            System.exit(0);
+        }
+
     }
+
+
+
+
+
+
 
 
     }

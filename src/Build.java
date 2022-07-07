@@ -7,7 +7,7 @@ public class Build {
 
     }
 
-    static int inputInt(String message, int min, int max) {
+    public static int inputInt(String message, int min, int max) {
 
         boolean isValidInput;
         int output = 0;
