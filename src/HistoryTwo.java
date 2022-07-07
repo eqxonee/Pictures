@@ -154,7 +154,7 @@ public class HistoryTwo {
                 "\n" +
                 "Поздравялем, вы узнали историю Вито Скелетта и его друга Джо!");
 
-        int choice = Build.inputInt("Желаете начать следующую историю? 1 - Да, 2 - Нет",1,2);
+        int choice = Build.inputInt("Желаете начать следующую историю? 1 - Да, 2 - Нет ",1,2);
 
         if (choice == 1){
             HistroyOne.playGame();
